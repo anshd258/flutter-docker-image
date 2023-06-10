@@ -11,7 +11,7 @@ flutter pub get
 # Build the APK
 flutter build apk 
 
-FILE_PATH="build\app\outputs\flutter-apk\app-release.apk"
+FILE_PATH="build/app/outputs/flutter-apk/app-release.apk"
 
 # Install the AWS CLI if not already installed
 if ! command -v aws &> /dev/null; then
